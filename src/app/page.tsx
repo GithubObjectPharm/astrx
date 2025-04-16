@@ -89,11 +89,11 @@ export default function Home() {
       </header>
 
       {/* About Astrx */}
-      <section className="mb-12 bg-muted">
+      <section className="mb-12 bg-white">
         <div className="grid grid-cols-2 gap-4">
           <div className="flex flex-col items-start">
             
-            <div className="flex flex-col items-start mt-48">
+            <div className="flex flex-col items-start mt-32 ml-12">
               <Image
                 src="https://astrx.eprepstation.com/images/logo.png"
                 alt="Astrx Logo"
@@ -125,7 +125,7 @@ export default function Home() {
       </section>
 
       {/* Testimonial Carousel */}
-      <section className="py-12 bg-white">
+      <section className="py-12 bg-muted">
         <div className="container mx-auto">
           <h2 className="text-2xl font-semibold text-center mb-6">
             What Our Learners Say
@@ -281,4 +281,3 @@ export default function Home() {
     </div>
   );
 }
-
