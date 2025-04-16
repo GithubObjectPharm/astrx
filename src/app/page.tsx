@@ -108,10 +108,10 @@ export default function Home() {
                 </p>
                 
                  <div className="flex space-x-4">
-                    <Button variant="default" size="lg" style={{ fontSize: '1.5rem', padding: '1.5rem 4rem', width: '250px' }}>
+                    <Button variant="default" size="lg" style={{ fontSize: '1.5rem', padding: '1.5rem 4rem', width: '250px', backgroundColor: 'hsl(var(--astrx-blue))', color: 'white' }}>
                       Join for Free
                     </Button>
-                    <Button variant="outline" size="lg" style={{ fontSize: '1.5rem', padding: '1.5rem 4rem', width: '250px' }}>
+                    <Button variant="outline" size="lg" style={{ fontSize: '1.5rem', padding: '1.5rem 4rem', width: '250px', color: 'hsl(var(--astrx-blue))', borderColor: 'hsl(var(--astrx-blue))' }}>
                       Become a Instructor
                     </Button>
                   </div>
@@ -335,9 +335,4 @@ export default function Home() {
     </div>
   );
 }
-
-
-
-
-
 
