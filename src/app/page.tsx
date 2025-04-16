@@ -137,7 +137,7 @@ export default function Home() {
             <h2 className="text-2xl font-semibold text-center mb-6">
               Course Preview
             </h2>
-             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+             <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6 mt-8">
               {/* Example Course Cards - Replace with actual data */}
               <Card>
                 <CardHeader>
@@ -180,6 +180,22 @@ export default function Home() {
                    <Image
                       src="https://astrx.eprepstation.com/upload/courses/USMLE.png"
                       alt="USMLE Training"
+                      width={500}
+                      height={300}
+                      style={{ objectFit: 'contain', height: '100%', width: '100%' }}
+                    />
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>FPGEE Training</CardTitle>
+                  <CardDescription>Prepare for the Foreign Pharmacy Graduate Equivalency Examination.</CardDescription>
+                </CardHeader>
+                <CardContent style={{height: '250px'}}>
+                    <Image
+                      src="https://astrx.eprepstation.com/upload/courses/fpgee%20selfpaced.jpg"
+                      alt="FPGEE Training"
                       width={500}
                       height={300}
                       style={{ objectFit: 'contain', height: '100%', width: '100%' }}
@@ -349,3 +365,4 @@ export default function Home() {
     </div>
   );
 }
+
