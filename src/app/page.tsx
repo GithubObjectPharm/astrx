@@ -142,9 +142,8 @@ export default function Home() {
               <Card>
                 <CardHeader>
                   <CardTitle>AI Training</CardTitle>
-                  <CardDescription>Learn AI Automation for Everyday tasks.</CardDescription>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px', objectFit: 'contain', height: '100%', width: '100%' }}>
+                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
                    <Image
                       src="https://astrx.eprepstation.com/upload/courses/WhatsApp%20Image%202025-02-08%20at%2015.45.27.jpeg"
                       alt="AI Training"
@@ -158,9 +157,8 @@ export default function Home() {
               <Card>
                 <CardHeader>
                   <CardTitle>KROLL Training</CardTitle>
-                  <CardDescription>Master the science of drug action.</CardDescription>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px', objectFit: 'contain', height: '100%', width: '100%' }}>
+                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
                     <Image
                       src="https://astrx.eprepstation.com/upload/courses/kroll.png"
                       alt="KROLL Training"
@@ -174,9 +172,8 @@ export default function Home() {
               <Card>
                 <CardHeader>
                   <CardTitle>USMLE Training</CardTitle>
-                  <CardDescription>Apply drugs to treat diseases.</CardDescription>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px', objectFit: 'contain', height: '100%', width: '100%' }}>
+                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
                    <Image
                       src="https://astrx.eprepstation.com/upload/courses/USMLE.png"
                       alt="USMLE Training"
@@ -190,9 +187,8 @@ export default function Home() {
                <Card>
                 <CardHeader>
                   <CardTitle>FPGEE Training</CardTitle>
-                  <CardDescription>Prepare for the FPGEE Examination.</CardDescription>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px', objectFit: 'contain', height: '100%', width: '100%' }}>
+                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
                     <Image
                       src="https://astrx.eprepstation.com/upload/courses/fpgee%20selfpaced.jpg"
                       alt="FPGEE Training"
@@ -209,9 +205,8 @@ export default function Home() {
               <Card>
                 <CardHeader>
                   <CardTitle>ASTRx Drug Monograph</CardTitle>
-                  <CardDescription>Explore essential drug information.</CardDescription>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px', objectFit: 'contain', height: '100%', width: '100%' }}>
+                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
                    <Image
                       src="https://astrx.eprepstation.com/upload/courses/astrx-drug-information-resource.jpg"
                       alt="ASTRx Drug Monograph"
@@ -225,9 +220,8 @@ export default function Home() {
               <Card>
                 <CardHeader>
                   <CardTitle>REx-PN™ Q Bank Course</CardTitle>
-                  <CardDescription>Ace your Pharmacy exams.</CardDescription>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px', objectFit: 'contain', height: '100%', width: '100%' }}>
+                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
                     <Image
                       src="https://astrx.eprepstation.com/upload/courses/rpnfront.png"
                       alt="REx-PN™ Q Bank Course"
@@ -241,9 +235,8 @@ export default function Home() {
               <Card>
                 <CardHeader>
                   <CardTitle>MCCQE Prep Course</CardTitle>
-                  <CardDescription>Prepare for your medical exams.</CardDescription>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px', objectFit: 'contain', height: '100%', width: '100%' }}>
+                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
                    <Image
                       src="https://astrx.eprepstation.com/upload/courses/mccqe.png"
                       alt="MCCQE Prep Course"
@@ -257,9 +250,8 @@ export default function Home() {
                <Card>
                 <CardHeader>
                   <CardTitle>PTCB Exam Training</CardTitle>
-                  <CardDescription>Ace your Pharmacy Technician Exams</CardDescription>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px', objectFit: 'contain', height: '100%', width: '100%' }}>
+                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
                     <Image
                       src="https://astrx.eprepstation.com/upload/courses/ptcb.jpg"
                       alt="PTCB Exam Training"
@@ -269,6 +261,7 @@ export default function Home() {
                     />
                 </CardContent>
               </Card>
+                 
             </div>
           </div>
         </section>
