@@ -94,7 +94,7 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-4">
             {/* Content Section */}
             <div className="flex flex-col items-start">
-              <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '650px', position: 'relative', left: '165px', top: '125px'}}>
+              <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '650px', position: 'relative', left: '165px', top: '110px'}}>
                 <Image
                   src="https://astrx.eprepstation.com/images/logo.png"
                   alt="Astrx Logo"
