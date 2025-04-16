@@ -191,7 +191,7 @@ export default function Home() {
           </div>
         </section>
         
-        {/* Testimonial Carousel */}
+                {/* Testimonial Carousel */}
         <section className="py-12 testimonials bg-white">
           <div className="container mx-auto">
             <h2 className="text-2xl font-semibold text-center mb-6">
@@ -349,4 +349,3 @@ export default function Home() {
     </div>
   );
 }
-
