@@ -95,12 +95,12 @@ export default function Home() {
             <Image
               src="https://astrx.eprepstation.com/images/logo.png"
               alt="Astrx Logo"
-              width={200}
-              height={80}
+              width={300}
+              height={120}
               className="mb-4"
             />
-            <p className="text-left mb-6">
-              All-in-One Platform Empowering Nurses, Physicians, Pharmacists, Pharmacy Technicians, and Dentists and all Other Health Professionals to Succeed in their Licensing Exams
+            <p className="text-left mb-6 text-xl font-bold">
+             Unlock the power of AI to automate repetitive tasks, streamline your workflow, and save hours every week—whether you're a teacher managing lesson plans, a student organizing study routines, or a business owner handling operations.
             </p>
             <Button variant="default">
               <Link href="#">Access Courses</Link>
@@ -117,17 +117,6 @@ export default function Home() {
               className="rounded-lg shadow-md"
             />
           </div>
-        </div>
-
-        {/* Video Placeholder */}
-        <div className="flex justify-center mt-8">
-          <Image
-            src="https://astrx.eprepstation.com/images/video-placeholder.jpg"
-            alt="Video Placeholder"
-            width={800}
-            height={450}
-            className="rounded-lg shadow-md"
-          />
         </div>
       </section>
 
@@ -288,3 +277,4 @@ export default function Home() {
     </div>
   );
 }
+
