@@ -138,37 +138,34 @@ export default function Home() {
             <h2 className="text-2xl font-semibold text-center mb-6">
               Course Preview
             </h2>
-            <p className="text-center text-gray-700">
-              Explore our comprehensive courses designed to help you succeed in your licensing exams.
-            </p>
              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
               {/* Example Course Cards - Replace with actual data */}
               <Card>
                 <CardHeader>
-                  <CardTitle>Pathophysiology</CardTitle>
+                  <CardTitle>AI Training</CardTitle>
                   <CardDescription>Understand the mechanisms of disease.</CardDescription>
                 </CardHeader>
-                <CardContent>
+                <CardContent style={{height: '250px'}}>
                   <p>Learn about cellular and systemic pathology.</p>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <CardTitle>Pharmacology</CardTitle>
+                  <CardTitle>KROLL Training</CardTitle>
                   <CardDescription>Master the science of drug action.</CardDescription>
                 </CardHeader>
-                <CardContent>
+                <CardContent style={{height: '250px'}}>
                   <p>Explore pharmacokinetics and pharmacodynamics.</p>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <CardTitle>Pharmacotherapy</CardTitle>
+                  <CardTitle>USMLE Training</CardTitle>
                   <CardDescription>Apply drugs to treat diseases.</CardDescription>
                 </CardHeader>
-                <CardContent>
+                <CardContent style={{height: '250px'}}>
                   <p>Discover evidence-based treatment strategies.</p>
                 </CardContent>
               </Card>
@@ -335,4 +332,3 @@ export default function Home() {
     </div>
   );
 }
-
