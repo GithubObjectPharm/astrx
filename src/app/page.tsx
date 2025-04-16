@@ -142,7 +142,7 @@ export default function Home() {
               <Card>
                 <CardHeader>
                   <CardTitle>AI Training</CardTitle>
-                  <CardDescription>Understand the mechanisms of disease.</CardDescription>
+                  <CardDescription>Learn AI Automation for Everyday tasks.</CardDescription>
                 </CardHeader>
                 <CardContent style={{height: '250px'}}>
                    <Image
@@ -190,7 +190,7 @@ export default function Home() {
               <Card>
                 <CardHeader>
                   <CardTitle>FPGEE Training</CardTitle>
-                  <CardDescription>Prepare for the Foreign Pharmacy Graduate Equivalency Examination.</CardDescription>
+                  <CardDescription>Prepare for the FPGEE Examination.</CardDescription>
                 </CardHeader>
                 <CardContent style={{height: '250px'}}>
                     <Image
@@ -203,7 +203,6 @@ export default function Home() {
                 </CardContent>
               </Card>
             </div>
-            {/* Add course preview content here */}
           </div>
         </section>
         
@@ -365,4 +364,5 @@ export default function Home() {
     </div>
   );
 }
+
 
