@@ -89,21 +89,21 @@ export default function Home() {
       </header>
 
       {/* About Astrx */}
-      <section className="mb-12 bg-white">
+      <section className="mb-12 bg-muted">
         <div className="grid grid-cols-2 gap-4">
           <div className="flex flex-col items-start">
             
-            <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '500px', position: 'relative', left: '75px', top: '45px'}}>
+            <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '650px', position: 'relative', left: '85px', top: '75px'}}>
               <Image
                 src="https://astrx.eprepstation.com/images/logo.png"
                 alt="Astrx Logo"
-                width={300}
-                height={120}
+                width={350}
+                height={150}
                 className="mb-4"
                 style={{alignItems: 'left'}}
               />
-              <p className="text-left mb-6 text-2xl" style={{maxWidth: '500px'}}>
-               Unlock the power of AI to automate repetitive tasks, streamline your workflow, and save hours every week—whether you're a teacher managing lesson plans, a student organizing study routines, or a business owner handling operations.
+              <p className="text-left mb-6 text-2xl" style={{maxWidth: '600px'}}>
+               Unlock the power of AI to automate repetitive tasks, streamline your workflow, and save hours every week.
               </p>
               
                <div className="flex space-x-4">
@@ -122,16 +122,16 @@ export default function Home() {
             <Image
               src="https://astrx.eprepstation.com/images/male-doc.png"
               alt="Male Doctor"
-              width={400}
-              height={300}
+              width={500}
+              height={400}
               className="rounded-lg shadow-md"
             />
           </div>
         </div>
       </section>
 
-      {/* Course Preview Section */}
-      <section className="py-12 bg-muted">
+     {/* Testimonial Carousel */}
+      <section className="py-12 bg-white">
         <div className="container mx-auto">
           <h2 className="text-2xl font-semibold text-center mb-6">
             Course Preview
@@ -175,8 +175,9 @@ export default function Home() {
         </div>
       </section>
       
+      
      {/* Testimonial Carousel */}
-      <section className="py-12 bg-white">
+      <section className="py-12 bg-muted">
         <div className="container mx-auto">
           <h2 className="text-2xl font-semibold text-center mb-6">
             What Our Learners Say
