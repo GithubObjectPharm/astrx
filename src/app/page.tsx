@@ -90,20 +90,33 @@ export default function Home() {
 
       {/* About Astrx */}
       <section className="mb-12">
-        <div className="flex flex-col items-center">
-          <Image
-            src="https://astrx.eprepstation.com/images/logo.png"
-            alt="Astrx Logo"
-            width={200}
-            height={80}
-            className="mb-4"
-          />
-          <p className="text-center mb-6">
-            All-in-One Platform Empowering Nurses, Physicians, Pharmacists, Pharmacy Technicians, and Dentists and all Other Health Professionals to Succeed in their Licensing Exams
-          </p>
-          <Button variant="default">
-            <Link href="#">Access Courses</Link>
-          </Button>
+        <div className="grid grid-cols-2 gap-4">
+          <div className="flex flex-col items-start">
+            <Image
+              src="https://astrx.eprepstation.com/images/logo.png"
+              alt="Astrx Logo"
+              width={200}
+              height={80}
+              className="mb-4"
+            />
+            <p className="text-left mb-6">
+              All-in-One Platform Empowering Nurses, Physicians, Pharmacists, Pharmacy Technicians, and Dentists and all Other Health Professionals to Succeed in their Licensing Exams
+            </p>
+            <Button variant="default">
+              <Link href="#">Access Courses</Link>
+            </Button>
+          </div>
+
+          {/* Male Doctor Image */}
+          <div className="flex justify-end">
+            <Image
+              src="https://astrx.eprepstation.com/images/male-doc.png"
+              alt="Male Doctor"
+              width={400}
+              height={300}
+              className="rounded-lg shadow-md"
+            />
+          </div>
         </div>
 
         {/* Video Placeholder */}
@@ -275,4 +288,3 @@ export default function Home() {
     </div>
   );
 }
-
