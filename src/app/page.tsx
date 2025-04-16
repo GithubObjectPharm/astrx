@@ -131,6 +131,30 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Testimonial Carousel */}
+        <section className="py-12 testimonials bg-white">
+          <div className="container mx-auto">
+            <h2 className="text-2xl font-semibold text-center mb-6">
+              What Our Learners Say
+            </h2>
+            <div className="flex overflow-x-auto snap-x gap-4 p-4">
+              {testimonials.map((testimonial, index) => (
+                <div
+                  key={index}
+                  className="snap-start w-full md:w-1/2 lg:w-1/3 px-4"
+                >
+                  <Card>
+                    <CardContent>
+                      <p className="text-center">{testimonial.review}</p>
+                      <p className="text-center mt-4">- {testimonial.user}</p>
+                    </CardContent>
+                  </Card>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Course Preview Section */}
         <section className="py-12  bg-muted">
           <div className="container mx-auto">
@@ -187,7 +211,7 @@ export default function Home() {
                 </CardContent>
               </Card>
 
-              <Card>
+               <Card>
                 <CardHeader>
                   <CardTitle>FPGEE Training</CardTitle>
                   <CardDescription>Prepare for the FPGEE Examination.</CardDescription>
@@ -203,7 +227,82 @@ export default function Home() {
                 </CardContent>
               </Card>
             </div>
+
+               <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6 mt-8" style={{ marginTop: '10px' }}>
+              {/* Example Course Cards - Replace with actual data */}
+              <Card>
+                <CardHeader>
+                  <CardTitle>NCLEX Training</CardTitle>
+                  <CardDescription>Ace your NCLEX exams.</CardDescription>
+                </CardHeader>
+                <CardContent style={{height: '250px'}}>
+                   <Image
+                      src="https://picsum.photos/500/300"
+                      alt="NCLEX Training"
+                      width={500}
+                      height={300}
+                      style={{ objectFit: 'contain', height: '100%', width: '100%' }}
+                    />
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Pharmacy Technician Training</CardTitle>
+                  <CardDescription>Become a certified pharmacy technician.</CardDescription>
+                </CardHeader>
+                <CardContent style={{height: '250px'}}>
+                    <Image
+                      src="https://picsum.photos/500/300"
+                      alt="Pharmacy Technician Training"
+                      width={500}
+                      height={300}
+                      style={{ objectFit: 'contain', height: '100%', width: '100%' }}
+                    />
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>NAPLEX Training</CardTitle>
+                  <CardDescription>Prepare for the NAPLEX exam.</CardDescription>
+                </CardHeader>
+                <CardContent style={{height: '250px'}}>
+                   <Image
+                      src="https://picsum.photos/500/300"
+                      alt="NAPLEX Training"
+                      width={500}
+                      height={300}
+                      style={{ objectFit: 'contain', height: '100%', width: '100%' }}
+                    />
+                </CardContent>
+              </Card>
+
+               <Card>
+                <CardHeader>
+                  <CardTitle>Medical Coding Training</CardTitle>
+                  <CardDescription>Master medical coding and billing.</CardDescription>
+                </CardHeader>
+                <CardContent style={{height: '250px'}}>
+                    <Image
+                      src="https://picsum.photos/500/300"
+                      alt="Medical Coding Training"
+                      width={500}
+                      height={300}
+                      style={{ objectFit: 'contain', height: '100%', width: '100%' }}
+                    />
+                </CardContent>
+              </Card>
+            </div>
           </div>
+        </section>
+        
+             {/* CTA Banner */}
+        <section className="py-16 bg-primary text-primary-foreground text-center">
+          <h2 className="text-3xl font-bold mb-4">
+            Join thousands of learners on Astrx
+          </h2>
+          <Button variant="default">Get Started</Button>
         </section>
         
                 {/* Testimonial Carousel */}
@@ -228,14 +327,6 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </section>
-
-        {/* CTA Banner */}
-        <section className="py-16 bg-primary text-primary-foreground text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            Join thousands of learners on Astrx
-          </h2>
-          <Button variant="default">Get Started</Button>
         </section>
 
         {/* Featured Instructors */}
@@ -364,5 +455,3 @@ export default function Home() {
     </div>
   );
 }
-
-
