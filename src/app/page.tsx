@@ -151,6 +151,7 @@ export default function Home() {
                       height={300}
                       style={{ objectFit: 'contain', height: '80%', width: '100%' }}
                     />
+                     <p className="text-muted-foreground">By: Astrx</p>
                 </CardContent>
               </Card>
 
@@ -166,6 +167,7 @@ export default function Home() {
                       height={300}
                       style={{ objectFit: 'contain', height: '80%', width: '100%' }}
                     />
+                      <p className="text-muted-foreground">By: Astrx</p>
                 </CardContent>
               </Card>
 
@@ -181,6 +183,7 @@ export default function Home() {
                       height={300}
                       style={{ objectFit: 'contain', height: '80%', width: '100%' }}
                     />
+                      <p className="text-muted-foreground">By: Astrx</p>
                 </CardContent>
               </Card>
 
@@ -196,6 +199,7 @@ export default function Home() {
                       height={300}
                       style={{ objectFit: 'contain', height: '80%', width: '100%' }}
                     />
+                      <p className="text-muted-foreground">By: Astrx</p>
                 </CardContent>
               </Card>
             </div>
@@ -214,6 +218,7 @@ export default function Home() {
                       height={300}
                       style={{ objectFit: 'contain', height: '80%', width: '100%' }}
                     />
+                      <p className="text-muted-foreground">By: Astrx</p>
                 </CardContent>
               </Card>
 
@@ -229,6 +234,7 @@ export default function Home() {
                       height={300}
                       style={{ objectFit: 'contain', height: '80%', width: '100%' }}
                     />
+                      <p className="text-muted-foreground">By: Astrx</p>
                 </CardContent>
               </Card>
 
@@ -244,6 +250,7 @@ export default function Home() {
                       height={300}
                       style={{ objectFit: 'contain', height: '80%', width: '100%' }}
                     />
+                      <p className="text-muted-foreground">By: Astrx</p>
                 </CardContent>
               </Card>
 
@@ -259,6 +266,7 @@ export default function Home() {
                       height={300}
                       style={{ objectFit: 'contain', height: '80%', width: '100%' }}
                     />
+                    <p className="text-muted-foreground">By: Astrx</p>
                 </CardContent>
               </Card>
                  
@@ -266,7 +274,7 @@ export default function Home() {
           </div>
         </section>
         {/* Testimonial Carousel */}
-        <section className="py-12 testimonials bg-muted">
+        <section className="py-12 testimonials bg-white">
           <div className="container mx-auto">
             <h2 className="text-2xl font-semibold text-center mb-6">
               What Our Learners Say
