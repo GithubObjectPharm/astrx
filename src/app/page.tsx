@@ -93,7 +93,7 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-4">
           <div className="flex flex-col items-start">
             
-            <div className="flex flex-col items-start mt-32 ml-12">
+            <div className="flex flex-col items-start mt-32 ml-12" style={{maxWidth: '400px'}}>
               <Image
                 src="https://astrx.eprepstation.com/images/logo.png"
                 alt="Astrx Logo"
@@ -124,7 +124,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Course Preview Section */}
+       {/* Course Preview Section */}
       <section className="py-12 bg-white">
         <div className="container mx-auto">
           <h2 className="text-2xl font-semibold text-center mb-6">
@@ -133,16 +133,40 @@ export default function Home() {
           <p className="text-center text-gray-700">
             Explore our comprehensive courses designed to help you succeed in your licensing exams.
           </p>
+           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+            {/* Example Course Cards - Replace with actual data */}
+            <Card>
+              <CardHeader>
+                <CardTitle>Pathophysiology</CardTitle>
+                <CardDescription>Understand the mechanisms of disease.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Learn about cellular and systemic pathology.</p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle>Pharmacology</CardTitle>
+                <CardDescription>Master the science of drug action.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Explore pharmacokinetics and pharmacodynamics.</p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle>Pharmacotherapy</CardTitle>
+                <CardDescription>Apply drugs to treat diseases.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Discover evidence-based treatment strategies.</p>
+              </CardContent>
+            </Card>
+          </div>
           {/* Add course preview content here */}
         </div>
-      </section>
-      
-      {/* CTA Banner */}
-      <section className="py-16 bg-primary text-primary-foreground text-center">
-        <h2 className="text-3xl font-bold mb-4">
-          Join thousands of learners on Astrx
-        </h2>
-        <Button variant="default">Get Started</Button>
       </section>
       
       {/* Testimonial Carousel */}
@@ -167,6 +191,14 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section>
+      
+      {/* CTA Banner */}
+      <section className="py-16 bg-primary text-primary-foreground text-center">
+        <h2 className="text-3xl font-bold mb-4">
+          Join thousands of learners on Astrx
+        </h2>
+        <Button variant="default">Get Started</Button>
       </section>
 
       {/* Featured Instructors */}
@@ -294,3 +326,4 @@ export default function Home() {
     </div>
   );
 }
+
