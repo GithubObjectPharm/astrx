@@ -131,6 +131,66 @@ export default function Home() {
           </div>
         </section>
 
+       {/* Course Preview Section */}
+        <section className="py-12  bg-muted">
+          <div className="container mx-auto">
+            <h2 className="text-2xl font-semibold text-center mb-6">
+              Course Preview
+            </h2>
+             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+              {/* Example Course Cards - Replace with actual data */}
+              <Card>
+                <CardHeader>
+                  <CardTitle>AI Training</CardTitle>
+                  <CardDescription>Understand the mechanisms of disease.</CardDescription>
+                </CardHeader>
+                <CardContent style={{height: '250px'}}>
+                   <Image
+                      src="https://astrx.eprepstation.com/upload/courses/WhatsApp%20Image%202025-02-08%20at%2015.45.27.jpeg"
+                      alt="AI Training"
+                      width={500}
+                      height={300}
+                      style={{ objectFit: 'contain', height: '100%', width: '100%' }}
+                    />
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>KROLL Training</CardTitle>
+                  <CardDescription>Master the science of drug action.</CardDescription>
+                </CardHeader>
+                <CardContent style={{height: '250px'}}>
+                    <Image
+                      src="https://astrx.eprepstation.com/upload/courses/kroll.png"
+                      alt="KROLL Training"
+                      width={500}
+                      height={300}
+                      style={{ objectFit: 'contain', height: '100%', width: '100%' }}
+                    />
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>USMLE Training</CardTitle>
+                  <CardDescription>Apply drugs to treat diseases.</CardDescription>
+                </CardHeader>
+                <CardContent style={{height: '250px'}}>
+                   <Image
+                      src="https://astrx.eprepstation.com/upload/courses/USMLE.png"
+                      alt="USMLE Training"
+                      width={500}
+                      height={300}
+                      style={{ objectFit: 'contain', height: '100%', width: '100%' }}
+                    />
+                </CardContent>
+              </Card>
+            </div>
+            {/* Add course preview content here */}
+          </div>
+        </section>
+        
         {/* Testimonial Carousel */}
         <section className="py-12 testimonials bg-white">
           <div className="container mx-auto">
@@ -155,64 +215,6 @@ export default function Home() {
           </div>
         </section>
 
-      
-       {/* Course Preview Section */}
-        <section className="py-12  bg-muted">
-          <div className="container mx-auto">
-            <h2 className="text-2xl font-semibold text-center mb-6">
-              Course Preview
-            </h2>
-             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-              {/* Example Course Cards - Replace with actual data */}
-              <Card>
-                <CardHeader>
-                  <CardTitle>AI Training</CardTitle>
-                  <CardDescription>Understand the mechanisms of disease.</CardDescription>
-                </CardHeader>
-                <CardContent style={{height: '250px'}}>
-                   <Image
-                      src="https://astrx.eprepstation.com/upload/courses/WhatsApp%20Image%202025-02-08%20at%2015.45.27.jpeg"
-                      alt="AI Training"
-                      width={500}
-                      height={300}
-                    />
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle>KROLL Training</CardTitle>
-                  <CardDescription>Master the science of drug action.</CardDescription>
-                </CardHeader>
-                <CardContent style={{height: '250px'}}>
-                    <Image
-                      src="https://astrx.eprepstation.com/upload/courses/kroll.png"
-                      alt="KROLL Training"
-                      width={500}
-                      height={300}
-                    />
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle>USMLE Training</CardTitle>
-                  <CardDescription>Apply drugs to treat diseases.</CardDescription>
-                </CardHeader>
-                <CardContent style={{height: '250px'}}>
-                   <Image
-                      src="https://astrx.eprepstation.com/upload/courses/USMLE.png"
-                      alt="USMLE Training"
-                      width={500}
-                      height={300}
-                    />
-                </CardContent>
-              </Card>
-            </div>
-            {/* Add course preview content here */}
-          </div>
-        </section>
-        
         {/* CTA Banner */}
         <section className="py-16 bg-primary text-primary-foreground text-center">
           <h2 className="text-3xl font-bold mb-4">
