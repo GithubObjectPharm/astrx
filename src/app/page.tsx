@@ -89,7 +89,7 @@ export default function Home() {
       </header>
 
       {/* About Astrx */}
-      <section className="mb-12 bg-white">
+      <section className="mb-12 bg-muted">
         <div className="grid grid-cols-2 gap-4">
           <div className="flex flex-col items-start">
             
@@ -112,7 +112,7 @@ export default function Home() {
           </div>
 
           {/* Male Doctor Image */}
-          <div className="flex justify-end">
+          <div className="flex justify-end items-center">
             <Image
               src="https://astrx.eprepstation.com/images/male-doc.png"
               alt="Male Doctor"
@@ -124,6 +124,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Course Preview Section */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto">
+          <h2 className="text-2xl font-semibold text-center mb-6">
+            Course Preview
+          </h2>
+          <p className="text-center text-gray-700">
+            Explore our comprehensive courses designed to help you succeed in your licensing exams.
+          </p>
+          {/* Add course preview content here */}
+        </div>
+      </section>
+      
+      {/* CTA Banner */}
+      <section className="py-16 bg-primary text-primary-foreground text-center">
+        <h2 className="text-3xl font-bold mb-4">
+          Join thousands of learners on Astrx
+        </h2>
+        <Button variant="default">Get Started</Button>
+      </section>
+      
       {/* Testimonial Carousel */}
       <section className="py-12 bg-muted">
         <div className="container mx-auto">
@@ -146,14 +167,6 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
-
-      {/* CTA Banner */}
-      <section className="py-16 bg-primary text-primary-foreground text-center">
-        <h2 className="text-3xl font-bold mb-4">
-          Join thousands of learners on Astrx
-        </h2>
-        <Button variant="default">Get Started</Button>
       </section>
 
       {/* Featured Instructors */}
@@ -187,7 +200,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-12 bg-gray-100">
+      <section className="py-12 bg-white">
         <div className="container mx-auto">
           <h2 className="text-2xl font-semibold text-center mb-8">
             Frequently Asked Questions
