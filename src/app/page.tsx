@@ -93,7 +93,7 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-4">
           <div className="flex flex-col items-start">
             
-            <div className="flex flex-col items-start mt-32 ml-12" style={{maxWidth: '400px', position: 'relative', left: '75px', top: '75px'}}>
+            <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '500px', position: 'relative', left: '75px', top: '45px'}}>
               <Image
                 src="https://astrx.eprepstation.com/images/logo.png"
                 alt="Astrx Logo"
@@ -102,15 +102,15 @@ export default function Home() {
                 className="mb-4"
                 style={{alignItems: 'left'}}
               />
-              <p className="text-left mb-6 text-2xl font-bold">
+              <p className="text-left mb-6 text-2xl" style={{maxWidth: '500px'}}>
                Unlock the power of AI to automate repetitive tasks, streamline your workflow, and save hours every week—whether you're a teacher managing lesson plans, a student organizing study routines, or a business owner handling operations.
               </p>
               
                <div className="flex space-x-4">
-                  <Button variant="default">
+                  <Button variant="default" size="lg">
                     Join for Free
                   </Button>
-                  <Button variant="outline">
+                  <Button variant="outline" size="lg">
                     Become a Instructor
                   </Button>
                 </div>
@@ -175,7 +175,7 @@ export default function Home() {
         </div>
       </section>
       
-      {/* Testimonial Carousel */}
+     {/* Testimonial Carousel */}
       <section className="py-12 bg-white">
         <div className="container mx-auto">
           <h2 className="text-2xl font-semibold text-center mb-6">
@@ -332,5 +332,6 @@ export default function Home() {
     </div>
   );
 }
+
 
 
