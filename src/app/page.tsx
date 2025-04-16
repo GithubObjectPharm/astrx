@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from '@/components/ui/accordion';
@@ -69,7 +70,13 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8">
         {/* Title and Menu */}
         <header className="flex items-center justify-between mb-8">
-          <h1 className="text-3xl font-bold text-primary" style={{marginLeft: '20px', marginRight: '20px'}}>Astrx</h1>
+         <Image
+            src="https://astrx.eprepstation.com/images/logo.png"
+            alt="Astrx Logo"
+            width={180}
+            height={72}
+            style={{marginLeft: '0px', marginRight: '0px'}}
+          />
           <nav className="space-x-6">
             <Link href="#" className="hover:text-accent">
               Home
@@ -94,15 +101,8 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-4">
             {/* Content Section */}
             <div className="flex flex-col items-start">
-              <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '650px', position: 'relative', left: '165px', top: '50px'}}>
-                <Image
-                  src="https://astrx.eprepstation.com/images/logo.png"
-                  alt="Astrx Logo"
-                  width={350 * 1.4}
-                  height={150 * 1.4}
-                  className="mb-4"
-                  style={{alignItems: 'left'}}
-                />
+              <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '650px', position: 'relative', left: '100px', top: '20px'}}>
+                <div style={{alignItems: 'left', fontSize: '1.3rem', fontStyle: 'italic', fontWeight: 'bold'}}>Astrx</div>
                 <p className="text-left mb-6 text-2xl" style={{maxWidth: '600px'}}>
                   Gain access to a wide range of courses taught by professional instructors covering diverse topics, including AI automation for workflow efficiency and comprehensive pharmacy training. Click "Join Now" to explore the full library and start learning today.
                 </p>
@@ -119,7 +119,7 @@ export default function Home() {
             </div>
 
             {/* Image Section */}
-            <div className="flex justify-end items-center">
+            <div className="flex justify-start items-center" style={{ position: 'relative', left: '-85px'}}>
               <Image
                 src="https://astrx.eprepstation.com/images/male-doc.png"
                 alt="Male Doctor"
@@ -131,8 +131,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Course Preview Section */}
-        <section className="py-12  bg-muted" style={{marginTop: '150px'}}>
+         {/* Course Preview Section */}
+        <section className="py-12  bg-muted">
           <div className="container mx-auto">
             <h2 className="text-2xl font-semibold text-center mb-6">
               Course Preview
@@ -143,7 +143,7 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle>AI Training</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
+                <CardContent style={{height: '400px', position: 'relative', top: '-20px' }}>
                    <Image
                       src="https://astrx.eprepstation.com/upload/courses/WhatsApp%20Image%202025-02-08%20at%2015.45.27.jpeg"
                       alt="AI Training"
@@ -158,7 +158,7 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle>KROLL Training</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
+                <CardContent style={{height: '400px', position: 'relative', top: '-20px' }}>
                     <Image
                       src="https://astrx.eprepstation.com/upload/courses/kroll.png"
                       alt="KROLL Training"
@@ -173,7 +173,7 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle>USMLE Training</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
+                <CardContent style={{height: '400px', position: 'relative', top: '-20px' }}>
                    <Image
                       src="https://astrx.eprepstation.com/upload/courses/USMLE.png"
                       alt="USMLE Training"
@@ -188,7 +188,7 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle>FPGEE Training</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
+                <CardContent style={{height: '400px', position: 'relative', top: '-20px' }}>
                     <Image
                       src="https://astrx.eprepstation.com/upload/courses/fpgee%20selfpaced.jpg"
                       alt="FPGEE Training"
@@ -206,7 +206,7 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle>ASTRx Drug Monograph</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
+                <CardContent style={{height: '400px', position: 'relative', top: '-20px' }}>
                    <Image
                       src="https://astrx.eprepstation.com/upload/courses/astrx-drug-information-resource.jpg"
                       alt="ASTRx Drug Monograph"
@@ -221,7 +221,7 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle>REx-PN™ Q Bank Course</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
+                <CardContent style={{height: '400px', position: 'relative', top: '-20px' }}>
                     <Image
                       src="https://astrx.eprepstation.com/upload/courses/rpnfront.png"
                       alt="REx-PN™ Q Bank Course"
@@ -236,7 +236,7 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle>MCCQE Prep Course</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
+                <CardContent style={{height: '400px', position: 'relative', top: '-20px' }}>
                    <Image
                       src="https://astrx.eprepstation.com/upload/courses/mccqe.png"
                       alt="MCCQE Prep Course"
@@ -251,7 +251,7 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle>PTCB Exam Training</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '250px', position: 'relative', top: '-20px' }}>
+                <CardContent style={{height: '400px', position: 'relative', top: '-20px' }}>
                     <Image
                       src="https://astrx.eprepstation.com/upload/courses/ptcb.jpg"
                       alt="PTCB Exam Training"
@@ -267,7 +267,7 @@ export default function Home() {
         </section>
 
         {/* Testimonial Carousel */}
-        <section className="py-12 testimonials bg-white" style={{ marginTop: '150px' }}>
+        <section className="py-12 testimonials bg-white">
           <div className="container mx-auto">
             <h2 className="text-2xl font-semibold text-center mb-6">
               What Our Learners Say
@@ -424,3 +424,4 @@ export default function Home() {
     </div>
   );
 }
+
