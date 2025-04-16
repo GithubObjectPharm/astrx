@@ -92,19 +92,22 @@ export default function Home() {
       <section className="mb-12">
         <div className="grid grid-cols-2 gap-4">
           <div className="flex flex-col items-start">
-            <Image
-              src="https://astrx.eprepstation.com/images/logo.png"
-              alt="Astrx Logo"
-              width={300}
-              height={120}
-              className="mb-4"
-            />
-            <p className="text-left mb-6 text-xl font-bold">
-             Unlock the power of AI to automate repetitive tasks, streamline your workflow, and save hours every week—whether you're a teacher managing lesson plans, a student organizing study routines, or a business owner handling operations.
-            </p>
-            <Button variant="default">
-              <Link href="#">Access Courses</Link>
-            </Button>
+            
+            <div className="flex flex-col items-start mt-16">
+              <Image
+                src="https://astrx.eprepstation.com/images/logo.png"
+                alt="Astrx Logo"
+                width={300}
+                height={120}
+                className="mb-4"
+              />
+              <p className="text-left mb-6 text-xl font-bold">
+               Unlock the power of AI to automate repetitive tasks, streamline your workflow, and save hours every week—whether you're a teacher managing lesson plans, a student organizing study routines, or a business owner handling operations.
+              </p>
+              <Button variant="default">
+                <Link href="#">Access Courses</Link>
+              </Button>
+            </div>
           </div>
 
           {/* Male Doctor Image */}
@@ -277,4 +280,3 @@ export default function Home() {
     </div>
   );
 }
-
