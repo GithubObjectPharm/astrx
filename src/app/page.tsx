@@ -131,7 +131,7 @@ export default function Home() {
           </div>
         </section>
 
-       {/* Course Preview Section */}
+        {/* Course Preview Section */}
         <section className="py-12  bg-muted">
           <div className="container mx-auto">
             <h2 className="text-2xl font-semibold text-center mb-6">
@@ -349,3 +349,4 @@ export default function Home() {
     </div>
   );
 }
+
