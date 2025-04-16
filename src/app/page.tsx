@@ -89,11 +89,11 @@ export default function Home() {
       </header>
 
       {/* About Astrx */}
-      <section className="mb-12 bg-white">
+      <section className="mb-12 testimonials bg-white">
         <div className="grid grid-cols-2 gap-4">
           {/* Content Section */}
           <div className="flex flex-col items-start">
-            <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '650px', position: 'relative', left: '85px', top: '125px'}}>
+            <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '650px', position: 'relative', left: '135px', top: '150px'}}>
               <Image
                 src="https://astrx.eprepstation.com/images/logo.png"
                 alt="Astrx Logo"
@@ -103,14 +103,14 @@ export default function Home() {
                 style={{alignItems: 'left'}}
               />
               <p className="text-left mb-6 text-2xl" style={{maxWidth: '600px'}}>
-                Unlock the power of AI to automate repetitive tasks, streamline your workflow, and save hours every week.
+                Gain access to a wide range of courses taught by professional instructors covering diverse topics, including AI automation for workflow efficiency and comprehensive pharmacy training. Click "Join Now" to explore the full library and start learning today.
               </p>
               
                <div className="flex space-x-4">
-                  <Button variant="default" size="lg" style={{ fontSize: '1.5rem', padding: '1rem 2rem' }}>
+                  <Button variant="default" size="lg" style={{ fontSize: '1.5rem', padding: '1rem 3rem' }}>
                     Join for Free
                   </Button>
-                  <Button variant="outline" size="lg" style={{ fontSize: '1.5rem', padding: '1rem 2rem' }}>
+                  <Button variant="outline" size="lg" style={{ fontSize: '1.5rem', padding: '1rem 3rem' }}>
                     Become a Instructor
                   </Button>
                 </div>
@@ -130,8 +130,9 @@ export default function Home() {
         </div>
       </section>
 
+      
      {/* Course Preview Section */}
-      <section className="py-12 bg-muted">
+      <section className="py-12  bg-muted">
         <div className="container mx-auto">
           <h2 className="text-2xl font-semibold text-center mb-6">
             Course Preview
@@ -174,10 +175,9 @@ export default function Home() {
           {/* Add course preview content here */}
         </div>
       </section>
-      
-      
-     {/* Testimonial Carousel */}
-      <section className="py-12 bg-white">
+
+      {/* Testimonial Carousel */}
+      <section className="py-12 testimonials bg-white">
         <div className="container mx-auto">
           <h2 className="text-2xl font-semibold text-center mb-6">
             What Our Learners Say
@@ -333,6 +333,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
