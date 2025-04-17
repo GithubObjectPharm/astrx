@@ -101,9 +101,9 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-4">
             {/* Content Section */}
             <div className="flex flex-col items-start">
-              <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '650px', position: 'relative', left: '165px', top: '50px'}}>
+              <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '850px', position: 'relative', left: '165px', top: '50px'}}>
                 <div style={{alignItems: 'left', fontSize: '5rem', fontStyle: 'italic', fontWeight: 'bold'}}>Astrx</div>
-                <p className="text-left mb-6 text-2xl" style={{maxWidth: '600px'}}>
+                <p className="text-left mb-6 text-2xl" style={{maxWidth: '700px', color: 'grey'}}>
                   Gain access to a wide range of courses taught by professional instructors covering diverse topics, including AI automation for workflow efficiency and comprehensive pharmacy training. Click "Join Now" to explore the full library and start learning today.
                 </p>
                 
@@ -119,7 +119,7 @@ export default function Home() {
             </div>
 
             {/* Image Section */}
-            <div className="flex justify-end items-center" style={{ position: 'relative', right: '-25px'}}>
+            <div className="flex justify-end items-center" style={{ position: 'relative', right: '5px'}}>
               <Image
                 src="https://astrx.eprepstation.com/images/male-doc.png"
                 alt="Male Doctor"
@@ -132,7 +132,7 @@ export default function Home() {
         </section>
 
           {/* Course Preview Section */}
-        <section className="py-12  bg-white">
+        <section className="py-12  bg-muted">
           <div className="container mx-auto">
             <h2 className="text-2xl font-semibold text-center mb-6">
               Course Preview
