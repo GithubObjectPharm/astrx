@@ -67,16 +67,18 @@ const faqData = [
 export default function Home() {
   return (
     <div className="bg-white">
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4">
         {/* Title and Menu */}
         <header className="flex items-center justify-between mb-8">
-          <Image
+          
+           <Image
             src="https://astrx.eprepstation.com/images/logo.png"
             alt="Astrx Logo"
             width={180}
             height={72}
             style={{marginLeft: '0px', marginRight: '0px'}}
           />
+          
           <nav className="space-x-6">
             <Link href="#" className="hover:text-accent">
               Home
@@ -101,9 +103,10 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-4">
             {/* Content Section */}
             <div className="flex flex-col items-start">
-              <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '850px', position: 'relative', left: '165px', top: '50px'}}>
+              <div className="flex flex-col items-start mt-20 ml-12" style={{maxWidth: '650px', position: 'relative', left: '165px', top: '50px'}}>
+               
                 <div style={{alignItems: 'left', fontSize: '5rem', fontStyle: 'italic', fontWeight: 'bold'}}>Astrx</div>
-                <p className="text-left mb-6 text-2xl" style={{maxWidth: '700px', color: 'grey'}}>
+                <p className="text-left mb-6 text-2xl" style={{maxWidth: '600px', color: 'grey'}}>
                   Gain access to a wide range of courses taught by professional instructors covering diverse topics, including AI automation for workflow efficiency and comprehensive pharmacy training. Click "Join Now" to explore the full library and start learning today.
                 </p>
                 
@@ -119,7 +122,7 @@ export default function Home() {
             </div>
 
             {/* Image Section */}
-            <div className="flex justify-end items-center" style={{ position: 'relative', right: '5px'}}>
+            <div className="flex justify-end items-center" style={{ position: 'relative', right: '-50px'}}>
               <Image
                 src="https://astrx.eprepstation.com/images/male-doc.png"
                 alt="Male Doctor"
@@ -131,7 +134,7 @@ export default function Home() {
           </div>
         </section>
 
-          {/* Course Preview Section */}
+            {/* Course Preview Section */}
         <section className="py-12  bg-muted">
           <div className="container mx-auto">
             <h2 className="text-2xl font-semibold text-center mb-6">
@@ -143,15 +146,24 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle style={{ fontSize: '1.5rem'}}>AI Training</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '400px', position: 'relative', top: '-10px' }}>
-                   <Image
+                <CardContent style={{height: '400px'}}>
+                     
+                     <Image
                       src="https://astrx.eprepstation.com/upload/courses/WhatsApp%20Image%202025-02-08%20at%2015.45.27.jpeg"
                       alt="AI Training"
                       width={500}
                       height={300}
-                      style={{ objectFit: 'contain', height: '80%', width: '100%' }}
+                      style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
-                     <p className="text-muted-foreground">By: Astrx</p>
+
+                    
+
+                    
+                      
+                       <p className="text-muted-foreground">About: Learn AI Automation for Everyday tasks.</p>
+                      
+                      
+                      <p className="text-muted-foreground">By: Ausaaf Ansari</p>
                 </CardContent>
               </Card>
 
@@ -159,15 +171,24 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle style={{ fontSize: '1.5rem'}}>KROLL Training</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '400px', position: 'relative', top: '-10px' }}>
-                    <Image
+                <CardContent style={{height: '400px'}}>
+
+                   
+                      <Image
                       src="https://astrx.eprepstation.com/upload/courses/kroll.png"
                       alt="KROLL Training"
                       width={500}
                       height={300}
-                      style={{ objectFit: 'contain', height: '80%', width: '100%' }}
+                      style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
-                      <p className="text-muted-foreground">By: Astrx</p>
+
+                    
+
+                    
+                       <p className="text-muted-foreground">About: Master the science of drug action.</p>
+                      
+                      
+                       <p className="text-muted-foreground">By: Shagufta Kanwal</p>
                 </CardContent>
               </Card>
 
@@ -175,15 +196,28 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle style={{ fontSize: '1.5rem'}}>USMLE Training</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '400px', position: 'relative', top: '-10px' }}>
-                   <Image
+                <CardContent style={{height: '400px'}}>
+
+                   
+                     
+                      
+                       <Image
                       src="https://astrx.eprepstation.com/upload/courses/USMLE.png"
                       alt="USMLE Training"
                       width={500}
                       height={300}
-                      style={{ objectFit: 'contain', height: '80%', width: '100%' }}
+                      style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
-                      <p className="text-muted-foreground">By: Astrx</p>
+
+                    
+
+                   
+                     
+                      
+                       <p className="text-muted-foreground">About: Pass this hard exam and become a doctor.</p>
+                      
+                      
+                       <p className="text-muted-foreground">By: Dr. Ifte Ali, MD</p>
                 </CardContent>
               </Card>
 
@@ -191,15 +225,28 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle style={{ fontSize: '1.5rem'}}>FPGEE Training</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '400px', position: 'relative', top: '-10px' }}>
-                    <Image
+                <CardContent style={{height: '400px'}}>
+
+                   
+                     
+                      
+                       <Image
                       src="https://astrx.eprepstation.com/upload/courses/fpgee%20selfpaced.jpg"
                       alt="FPGEE Training"
                       width={500}
                       height={300}
-                      style={{ objectFit: 'contain', height: '80%', width: '100%' }}
+                      style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
-                      <p className="text-muted-foreground">By: Astrx</p>
+
+                   
+
+                    
+                       
+                      
+                       <p className="text-muted-foreground">About: Prepare for the FPGEE Examination.</p>
+                      
+                      
+                       <p className="text-muted-foreground">By: Dr. Misbah Biabani</p>
                 </CardContent>
               </Card>
             </div>
@@ -210,15 +257,29 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle style={{ fontSize: '1.5rem'}}>ASTRx Drug Monograph</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '400px', position: 'relative', top: '-10px' }}>
-                   <Image
+                <CardContent style={{height: '400px'}}>
+
+                  
+                     
+                      
+                       <Image
                       src="https://astrx.eprepstation.com/upload/courses/astrx-drug-information-resource.jpg"
                       alt="ASTRx Drug Monograph"
                       width={500}
                       height={300}
-                      style={{ objectFit: 'contain', height: '80%', width: '100%' }}
+                      style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
-                      <p className="text-muted-foreground">By: Astrx</p>
+
+                    
+
+                  
+
+                   
+                     
+                      
+                       <p className="text-muted-foreground">About: Learn all about this drug.</p>
+                      
+                       <p className="text-muted-foreground">By: Pharmacy Prep</p>
                 </CardContent>
               </Card>
 
@@ -226,15 +287,25 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle style={{ fontSize: '1.5rem'}}>REx-PN™ Q Bank Course</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '400px', position: 'relative', top: '-10px' }}>
-                    <Image
+                <CardContent style={{height: '400px'}}>
+                   
+                     
+                      
+                       <Image
                       src="https://astrx.eprepstation.com/upload/courses/rpnfront.png"
                       alt="REx-PN™ Q Bank Course"
                       width={500}
                       height={300}
-                      style={{ objectFit: 'contain', height: '80%', width: '100%' }}
+                      style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
-                      <p className="text-muted-foreground">By: Astrx</p>
+
+                   
+
+                    
+                      
+                       <p className="text-muted-foreground">About: Prepare for your re-entrance.</p>
+                      
+                       <p className="text-muted-foreground">By: Susan Matthews</p>
                 </CardContent>
               </Card>
 
@@ -242,15 +313,26 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle style={{ fontSize: '1.5rem'}}>MCCQE Prep Course</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '400px', position: 'relative', top: '-10px' }}>
-                   <Image
+                <CardContent style={{height: '400px'}}>
+
+                   
+                     
+                      
+                       <Image
                       src="https://astrx.eprepstation.com/upload/courses/mccqe.png"
                       alt="MCCQE Prep Course"
                       width={500}
                       height={300}
-                      style={{ objectFit: 'contain', height: '80%', width: '100%' }}
+                      style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
-                      <p className="text-muted-foreground">By: Astrx</p>
+
+                    
+                      
+                       
+                      
+                       <p className="text-muted-foreground">About: A guide for canadians.</p>
+                      
+                       <p className="text-muted-foreground">By: Dr. Ifte Ali</p>
                 </CardContent>
               </Card>
 
@@ -258,22 +340,35 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle style={{ fontSize: '1.5rem'}}>PTCB Exam Training</CardTitle>
                 </CardHeader>
-                <CardContent style={{height: '400px', position: 'relative', top: '-10px' }}>
-                    <Image
+                <CardContent style={{height: '400px'}}>
+
+                    
+                     
+                      
+                       <Image
                       src="https://astrx.eprepstation.com/upload/courses/ptcb.jpg"
                       alt="PTCB Exam Training"
                       width={500}
                       height={300}
-                      style={{ objectFit: 'contain', height: '80%', width: '100%' }}
+                      style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
-                    <p className="text-muted-foreground">By: Astrx</p>
+
+                  
+
+                   
+                     
+                      
+                       <p className="text-muted-foreground">About: Prepare for the PTCB Exam.</p>
+                      
+                      
+                       <p className="text-muted-foreground">By: Pharmacy Prep</p>
                 </CardContent>
               </Card>
                  
             </div>
           </div>
         </section>
-        {/* Testimonial Carousel */}
+          {/* Testimonial Carousel */}
         <section className="py-12 testimonials bg-white">
           <div className="container mx-auto">
             <h2 className="text-2xl font-semibold text-center mb-6">
