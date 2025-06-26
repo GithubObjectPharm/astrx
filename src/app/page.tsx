@@ -156,8 +156,11 @@ export default function Home() {
                       style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
 
-                     <p className="text-muted-foreground" >About: Learn AI Automation for Everyday tasks.</p>
+                    
 
+                    
+                      
+                       <p className="text-muted-foreground">About: Learn AI Automation for Everyday tasks.</p>
                       
                       
                       <p className="text-muted-foreground">By: Ausaaf Ansari</p>
@@ -179,16 +182,19 @@ export default function Home() {
                       style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
 
-                     <p className="text-muted-foreground" >About: Master the KROLL Software.</p>
                     
 
+                    
+                       <p className="text-muted-foreground">About: Master the science of drug action.</p>
+                      
+                      
                        <p className="text-muted-foreground">By: Shagufta Kanwal</p>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <CardTitle style={{ fontSize: '1.5rem'}}>USMLE Preparation Course</CardTitle>
+                  <CardTitle style={{ fontSize: '1.5rem'}}>USMLE Training</CardTitle>
                 </CardHeader>
                 <CardContent style={{height: '400px'}}>
 
@@ -203,8 +209,14 @@ export default function Home() {
                       style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
 
-                   <p className="text-muted-foreground" >About: USMLE Preparation Course.</p>
+                    
 
+                   
+                     
+                      
+                       <p className="text-muted-foreground">About: Pass this hard exam and become a doctor.</p>
+                      
+                      
                        <p className="text-muted-foreground">By: Dr. Ifte Ali, MD</p>
                 </CardContent>
               </Card>
@@ -226,8 +238,14 @@ export default function Home() {
                       style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
 
-                   <p className="text-muted-foreground" >About: Prepare for the FPGEE Examination.</p>
+                   
 
+                    
+                       
+                      
+                       <p className="text-muted-foreground">About: Prepare for the FPGEE Examination.</p>
+                      
+                      
                        <p className="text-muted-foreground">By: Dr. Misbah Biabani</p>
                 </CardContent>
               </Card>
@@ -252,8 +270,15 @@ export default function Home() {
                       style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
 
-                  <p className="text-muted-foreground" >About: Simplified Drug Monographs.</p>
+                    
 
+                  
+
+                   
+                     
+                      
+                       <p className="text-muted-foreground">About: Learn all about this drug.</p>
+                      
                        <p className="text-muted-foreground">By: Pharmacy Prep</p>
                 </CardContent>
               </Card>
@@ -274,8 +299,12 @@ export default function Home() {
                       style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
 
-                  <p className="text-muted-foreground" >About: Full Preparation Course with Mock Exams.</p>
+                   
 
+                    
+                      
+                       <p className="text-muted-foreground">About: Prepare for your re-entrance.</p>
+                      
                        <p className="text-muted-foreground">By: Susan Matthews</p>
                 </CardContent>
               </Card>
@@ -297,8 +326,11 @@ export default function Home() {
                       style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
 
-                    <p className="text-muted-foreground" >About: A guide for canadians.</p>
+                    
+                      
                        
+                      
+                       <p className="text-muted-foreground">About: A guide for canadians.</p>
                       
                        <p className="text-muted-foreground">By: Dr. Ifte Ali</p>
                 </CardContent>
@@ -321,8 +353,14 @@ export default function Home() {
                       style={{ objectFit: 'contain', height: '80%', width: '100%', position: 'relative', top: '-10px' }}
                     />
 
-                   <p className="text-muted-foreground" >About: Prepare for the PTCB Exam.</p>
+                  
 
+                   
+                     
+                      
+                       <p className="text-muted-foreground">About: Prepare for the PTCB Exam.</p>
+                      
+                      
                        <p className="text-muted-foreground">By: Pharmacy Prep</p>
                 </CardContent>
               </Card>
@@ -487,3 +525,4 @@ export default function Home() {
     </div>
   );
 }
+
